@@ -1,3 +1,3 @@
 class notifyme {
-  notify { "This is the notifyme module and its master branch": }
+  notify { "This is the changed message in the change_the_message branch": }
 }
