@@ -1,3 +1,3 @@
 class notifyme {
-  notify { "This changes the message that already exists!!!!": }
+  notify { "This notify is on the master branch": }
 }
