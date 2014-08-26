@@ -1,3 +1,5 @@
-class notifyme {
-  notify { "This notify is on the master branch, but R10k is using a remote repository!": }
+class notifyme (
+  $message = "This module just notifies a message"
+) { 
+  notify { $message: }
 }
