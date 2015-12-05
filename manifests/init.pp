@@ -1,5 +1,5 @@
 class notifyme (
-  $message = "messages changed for testing purpouse"
+  $message = "this message is for testing purpose"
 ) { 
   notify { $message: }
 }
